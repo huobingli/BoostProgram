@@ -5,8 +5,8 @@ INCLUDE = ../../boost/boost/lib
 #STDLIB = -stdlib=libc++
 
 LIBS = -lpthread -lrt -lboost_system -lboost_filesystem
-OBJS = boost_thread2.cpp
-TEST = boost_thread2
+OBJS = boost_socket.cpp
+TEST = boost_socket
 
 %.o: %.c
 	$(CC)  $(CFLAGS) $(INCLUDE) -c $< -o $@
