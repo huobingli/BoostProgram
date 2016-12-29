@@ -1,3 +1,14 @@
+
+//********************************************************
+//
+//       FileName:      template.cpp
+//
+//       Author:  huobingli - huobingli@outlook.com
+//       Description:    
+//       Create: 2016-12-29  20:03:34
+//       Last Modified: 2016-12-29 20:03:34
+//********************************************************
+// 
 #include <iostream>
 using namespace std;
 template<class T>
